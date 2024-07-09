@@ -10,8 +10,8 @@ body {
        padding: 1em;
        margin: 1em;
        margin-bottom: 0.5em;
-       /* margin-left: 0em; */
        border-radius: 1em;
+      display: block;
       
  }
  
