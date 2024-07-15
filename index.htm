@@ -234,9 +234,12 @@
                             large: 0,
                             total: 0
                         };
+                        paymentInput.value = '';
+                        this.cart = [];
 
                     } else {
                         this.paymentMessage = "Sorry - that is not enough money!";
+                        paymentInput.value = '';
                     }
                     // Clear the payment message after 3 seconds
                     setTimeout(() => {
